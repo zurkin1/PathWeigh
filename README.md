@@ -1,7 +1,7 @@
 # PathWeigh - Quantifying the Behavior of Pathway Cascades
 
 <img width="768" height="623" alt="image" src="https://github.com/user-attachments/assets/0e37c508-92d5-4f7e-ac53-3aeca32099ff" />
-*_(Source: https://norbis.w.uib.no/files/2016/05/F1.large_-768x623.jpg)_*
+
 <span style="font-size: small;">*_(Source: https://norbis.w.uib.no/files/2016/05/F1.large_-768x623.jpg)_*</span>
 
 ## Overview
