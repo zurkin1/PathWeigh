@@ -1,4 +1,5 @@
-# PathWeigh A Biochemical Pathway Analysis Tool
+# PathWeigh - Quantifying the Behavior of Pathway Cascades
+
 ![Pathway analysis](https://norbis.w.uib.no/files/2016/05/F1.large_-768x623.jpg)
 
 ## Overview
