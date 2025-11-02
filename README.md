@@ -1,9 +1,8 @@
 # PathWeigh - Quantifying the Behavior of Pathway Cascades
 
-<figure>
-  <img src="https://norbis.w.uib.no/files/2016/05/F1.large_-768x623.jpg" alt="Pathway analysis" />
-  <figcaption><small>(Source: https://norbis.w.uib.no/files/2016/05/F1.large_-768x623.jpg)</small></figcaption>
-</figure>
+<img width="768" height="623" alt="image" src="https://github.com/user-attachments/assets/0e37c508-92d5-4f7e-ac53-3aeca32099ff" />
+*_(Source: https://norbis.w.uib.no/files/2016/05/F1.large_-768x623.jpg)_*
+<span style="font-size: small;">*_(Source: https://norbis.w.uib.no/files/2016/05/F1.large_-768x623.jpg)_*</span>
 
 ## Overview
 PathWeigh is an advanced Python-based pathway analysis tool specifically designed for microarray and RNA-sequencing data analysis. This innovative software implements a novel graph-based algorithm, enabling comprehensive analysis of diverse cellular states, including but not limited to T cell subtypes. 
