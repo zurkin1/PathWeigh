@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+scikit-learn
+tqdm
+networkx
+matplotlib
+umap-learn
+tabulate
+decoupler
+anndata
+plotly
