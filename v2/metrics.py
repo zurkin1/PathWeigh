@@ -1,5 +1,5 @@
 import numpy as np
-from sklearn.metrics import silhouette_score, calinski_harabasz_score, completeness_score, homogeneity_score, adjusted_mutual_info_score, adjusted_rand_score, normalized_mutual_info_score
+from sklearn.metrics import silhouette_score, calinski_harabasz_score, completeness_score, homogeneity_score, adjusted_mutual_info_score, rand_score, normalized_mutual_info_score
 from sklearn.metrics import accuracy_score, confusion_matrix, cohen_kappa_score
 from scipy.spatial.distance import pdist, squareform
 from scipy.optimize import linear_sum_assignment
@@ -146,7 +146,7 @@ def calc_stats(act_mat, true_labels, pred_labels, debug=False):
 
     #Adjusted_mutual_info_scor
     Adjusted = adjusted_mutual_info_score(true_labels, pred_labels)
-    ari = adjusted_rand_score(true_labels, pred_labels)
+    rs = rand_score(true_labels, pred_labels)
     nmi = normalized_mutual_info_score(true_labels, pred_labels)
 
     if debug:
@@ -157,7 +157,7 @@ def calc_stats(act_mat, true_labels, pred_labels, debug=False):
             ("Completeness score", Completeness),
             ("Homogeneity score", Homogeneity),
             ("Adjusted mutual info score", Adjusted),
-            ("Adjusted rand score", ari),
+            ("Rand score", rs),
             ("Normalized mutual info score", nmi),
         ]
         print(tabulate(data, headers=["Metric", "Value"], tablefmt="github", floatfmt=".6f"))
@@ -215,8 +215,8 @@ def feature_importance(scores_df, true_labels):
 
 def clustering(results_matrix, n_clusters=3):
     #Perform KMeans clustering. (n_samples, n_features)
-    #model = KMeans(n_clusters).fit(results_matrix)
-    model = SpectralClustering(n_clusters=n_clusters, affinity='nearest_neighbors', random_state=42).fit(results_matrix)
+    model = KMeans(n_clusters, random_state=42).fit(results_matrix)
+    #model = SpectralClustering(n_clusters=n_clusters, affinity='nearest_neighbors', random_state=42).fit(results_matrix)
     return model
 
 def gaussian_scaling(p, q, sigma=0.5):

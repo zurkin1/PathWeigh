@@ -15,7 +15,13 @@ import plotly.graph_objects as go
 import plotly.offline as py_offline
 import networkx as nx
 #import cufflinks
+import os
 
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+os.chdir(CURRENT_DIR)
+if CURRENT_DIR not in sys.path:
+    sys.path.insert(0, CURRENT_DIR)
 
 colors_green_to_red = ['00FF00', '11FF00', '22FF00', '33FF00', '44FF00', '55FF00', '66FF00', '77FF00', '88FF00',
                        '99FF00', 'AAFF00', 'BBFF00', 'CCFF00', 'DDFF00', 'EEFF00', 'FFFF00', 'FFEE00', 'FFDD00',
@@ -205,7 +211,8 @@ class path_activity:
             # max(paths['path_id'].groupby(paths['intID']).nunique()) #This shows that some interactions participate in few paths.
             # Save the pr for output molecules, since it also receieved a UDP.
             paths['pr_output'] = 1
-            paths.loc[paths.molRole == 'output', 'pr_output'] = paths.pr
+            paths['pr'] = paths.pr.replace([np.inf, -np.inf], np.nan).fillna(0)
+            paths.loc[paths.molRole == 'output', 'pr_output'] = paths.pr.astype(paths['pr_output'].dtype)
             paths.loc[paths.molRole == 'output', 'pr'] = 1
             # Handle molecules that we could not find UDP for, we need to remove the whole interaction.
             # Pandas like R is ignoring NA values in gropuby.transform, so instead we zero it.
@@ -230,6 +237,8 @@ class path_activity:
                 (sample_results, paths_result.values))  # axis=0
         results_df = pd.DataFrame(data=sample_results, columns=[
                                   'sampleID', 'path_name', 'pathID', 'Activity', 'Consistency', 'molRole'])
+        print('.', end="")
+        sys.stdout.flush()
         return results_df, paths
 
     # Read chunks of dataframe columns.
@@ -246,11 +255,9 @@ class path_activity:
 
         pool = mp.Pool()  # Use number of CPUs processes.
         results = [pool.apply_async(self.process_samples, args=(x,))
-                   for x in self.chunker_columns(1000)]
+                   for x in self.chunker_columns(20)]
         for p in results:
             df = pd.concat([df, p.get()[0]]) # f.get(timeout=100)
-            print('.', end="")
-            sys.stdout.flush()
 
         #df = self.process_samples(self.udp)[0]
         df.drop(['molRole'], inplace=True, axis=1)
@@ -566,7 +573,7 @@ class path_activity:
 if __name__ == '__main__':
     # activity_obj.xmlparser(1,1)
 
-    udp = pd.read_csv('./data/output_udp.csv', index_col=0)
+    udp = pd.read_csv('./data/TCGACRC_expression-merged.zip', sep='\t', index_col=0)
     udp.index = udp.index.map(str.lower)
     activity_obj = path_activity(udp, True)
     activity_obj.calc_activity_consistency_multi_process()

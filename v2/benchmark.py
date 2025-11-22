@@ -16,6 +16,53 @@ from sklearn.decomposition import PCA
 from metrics import *
 import decoupler
 from pathlib import Path
+from scipy.stats import pearsonr
+from difflib import get_close_matches
+
+
+def compare_pathway_results():
+        # Load activity outputs
+    v1_activity = pd.read_csv('./data/output_activity_v1.csv', index_col=0)
+    v2_activity = pd.read_csv('./data/output_activity.csv', index_col=0)
+
+    # Normalize pathway names
+    v1_activity.index = v1_activity.index.str.lower().str.strip()
+    v2_activity.index = v2_activity.index.str.lower().str.strip()
+
+    # Find common pathways and common samples.
+    #common_pathways = list(set(v1_activity.index) & set(v2_activity.index))
+    matches_list = []
+    for v2_name in list(v2_activity.index):
+        matches = get_close_matches(v2_name, list(v1_activity.index), n=1, cutoff=0.6)
+        if matches:
+            matches_list.append((v2_name, matches[0]))
+    common_samples = list(set(v1_activity.columns) & set(v2_activity.columns))
+
+    print(f"Common pathways in activity files: {len(matches_list)}")
+    print(f"Common samples: {len(common_samples)}")
+
+    # Subset to common
+    v2_names = [match[0] for match in matches_list] # PathWeigh II names
+    v1_names = [match[1] for match in matches_list] # PathWeigh v1 names
+    v1_common = v1_activity.loc[v1_names, common_samples]
+    v2_common = v2_activity.loc[v2_names, common_samples]
+    v1_common.index = v2_names # Now both have same index
+
+    # Calculate correlation per sample
+    correlations = []
+    for sample in tqdm(common_samples):
+        r, p = pearsonr(v1_common[sample], v2_common[sample])
+        correlations.append(r)
+
+    print(f"\nMean Pearson r across samples: {np.mean(correlations):.3f}")
+    print(f"Std: {np.std(correlations):.3f}")
+    print(f"Range: {np.min(correlations):.3f} - {np.max(correlations):.3f}")
+
+    # Or: flatten both matrices and compute single correlation
+    v1_flat = v1_common.values.flatten()
+    v2_flat = v2_common.values.flatten()
+    r_overall, p_overall = pearsonr(v1_flat, v2_flat)
+    print(f"\nOverall correlation (all pathways × samples): r={r_overall:.3f}, p={p_overall:.2e}")
 
 
 def load_tcga_data(expression_file, labels_file):
@@ -135,10 +182,7 @@ def run_gsea_benchmark():
     reactome = reactome.rename(columns={'geneset': 'source', 'genesymbol': 'target'})
     print(reactome.columns)
     print(reactome.head())
-
-
-
-    """Main benchmark pipeline"""   
+ 
     # Load data
     df = pd.read_csv('./data/TCGACRC_expression-merged.zip', sep='\t', index_col=0).T #, nrows=100, usecols=range(100)
     print(df.head())
@@ -168,10 +212,8 @@ def run_gsea_benchmark():
     verbose=True
     )
     '''
-    print(activity.head())
-
+    #print(activity.head())
     # Cluster requires (n_samples, n_features).
-    #print("Clustering (k=3)...")
     # Convert labels to numeric for metrics
     kmeans = clustering(activity, n_clusters=3)
     y_pred_kmeans = kmeans.labels_
@@ -186,10 +228,16 @@ def run_gsea_benchmark():
         y_pred_kmeans,
         debug=True
     )
+    activity.to_csv('activity_gsea.csv')
 
 
 if __name__ == "__main__":
-    """Main benchmark pipeline"""   
+    """Main benchmark pipeline"""
+    if True:
+        #run_gsea_benchmark()
+        compare_pathway_results()
+        exit(0)
+
     # Load data
     activity, y_true = load_tcga_data('./data/output_activity.csv', labels_file='./data/TCGACRC_clinical-merged.csv')
 
