@@ -14,30 +14,6 @@ if CURRENT_DIR not in sys.path:
 # Load and parse interactions into simple pathway_interactions dictionary data structure. e.g.
 # pathway_interactions['Adherens junction'][0] = (['baiap2', 'wasf2', 'wasf3', 'wasf1'], 'activation', ['actb', 'actg1'], 'Adherens junction')
 def parse_pathway_interactions(relations_file):
-    """Parse interactions and assign unique IDs to each"""
-    pathway_relations = pd.read_csv(relations_file)
-    pathway_relations['source'] = pathway_relations['source'].fillna('').astype(str).str.lower().str.split('*')
-    pathway_relations['target'] = pathway_relations['target'].fillna('').astype(str).str.lower().str.split('*')   
-    
-    interactions_by_pathway = {}
-    for idx, row in pathway_relations.iterrows():
-        pathway = row['pathway']
-        if pathway not in interactions_by_pathway:
-            interactions_by_pathway[pathway] = []
-        
-        # Store interaction with its global ID for fast lookup
-        interactions_by_pathway[pathway].append({
-            'id': idx,  # Unique interaction ID
-            'source': row['source'],
-            'type': row['interactiontype'],
-            'target': row['target'],
-            'pathway': pathway
-        })
-    
-    return interactions_by_pathway
-
-
-def parse_pathway_interactions(relations_file):
     """
     Parse interactions and assign unique IDs to each
     Load and parse interactions into simple pathway_interactions dictionary data structure. e.g.
@@ -55,7 +31,7 @@ def parse_pathway_interactions(relations_file):
         
         # Store interaction with its global ID for fast lookup
         interactions_by_pathway[pathway].append({
-            'id': idx,
+            'id': idx, # Unique interaction ID
             'source': row['source'],
             'type': row['interactiontype'],
             'target': row['target'],

@@ -215,8 +215,8 @@ def feature_importance(scores_df, true_labels):
 
 def clustering(results_matrix, n_clusters=3):
     #Perform KMeans clustering. (n_samples, n_features)
-    model = KMeans(n_clusters, random_state=42).fit(results_matrix)
-    #model = SpectralClustering(n_clusters=n_clusters, affinity='nearest_neighbors', random_state=42).fit(results_matrix)
+    #model = KMeans(n_clusters, random_state=42).fit(results_matrix)
+    model = SpectralClustering(n_clusters=n_clusters, affinity='nearest_neighbors', random_state=42).fit(results_matrix)
     return model
 
 def gaussian_scaling(p, q, sigma=0.5):

@@ -1,0 +1,309 @@
+Pathway,% Disconnected,Largest CC Size,Avg Path Len,# Nodes,# Genes,Avg # Src Genes,Avg # Tgt Genes,Largest Src Comp,Largest Tgt Comp
+Adherens junction,4.20%,89,,95,90,1.65,1.45,4,8
+African trypanosomiasis,69.20%,4,0.94,13,26,1.62,1.62,4,4
+AGE-RAGE signaling pathway in diabetic complications,0.00%,93,,93,99,2.2,1.84,10,10
+Alcoholic liver disease,4.20%,92,,96,140,1.89,1.95,7,13
+Alcoholism,8.90%,41,6,45,180,3.24,4.91,21,50
+Aldosterone-regulated sodium reabsorption,5.00%,19,5.6,20,35,1.3,2.2,7,9
+Allograft rejection,100.00%,1,0,7,28,1.43,3.71,2,20
+Aminoacyl-tRNA biosynthesis,53.80%,4,0.58,26,44,1.42,0.81,3,3
+Amoebiasis,38.50%,2,0.74,13,46,2.69,2.31,7,7
+Amphetamine addiction,15.70%,27,3.85,51,71,2.51,2.94,10,10
+AMPK signaling pathway,14.30%,54,6.49,63,111,3.17,2.24,7,7
+Antifolate resistance,50.00%,4,0.6,8,15,1.62,1.38,3,2
+Apelin signaling pathway,0.00%,72,7.97,76,144,4.05,2.75,20,20
+Apoptosis - multiple species,5.00%,11,1.48,20,28,1.8,1.5,4,4
+Arachidonic acid metabolism,0.90%,222,,224,61,2.24,2.53,22,22
+Arrhythmogenic right ventricular cardiomyopathy,23.50%,7,,17,29,1.35,1.88,6,6
+Asthma,100.00%,1,0,3,6,1,2.33,1,3
+Autoimmune thyroid disease,100.00%,1,0,7,9,1.14,1,2,1
+Autophagy - other,21.10%,8,2.65,19,25,1.79,1.89,4,4
+Axon guidance,3.60%,126,,139,176,2.11,2.16,8,8
+Bacterial invasion of epithelial cells,11.80%,21,6.36,34,54,2,2.76,11,11
+Bile secretion,0.00%,12,3.53,18,39,2.33,1.78,9,9
+Carbohydrate digestion and absorption,0.00%,5,3.16,9,23,2.33,2.22,7,7
+Cardiac muscle contraction,5.30%,16,,19,22,1.42,1.84,4,5
+Cell adhesion molecules,31.40%,36,,140,145,1.75,1.6,24,24
+Central carbon metabolism in cancer,15.80%,17,3.97,38,66,1.63,2.26,13,7
+cGMP-PKG signaling pathway,2.70%,68,9.9,73,173,2.47,2.45,9,10
+Chagas disease,9.80%,42,,61,102,1.84,1.77,8,8
+Choline metabolism in cancer,14.60%,27,5.29,41,86,2.2,2.51,7,11
+Cholinergic synapse,0.00%,33,,45,103,3.82,4.42,21,21
+Cocaine addiction,9.80%,37,5.87,41,47,1.95,1.78,10,10
+Collecting duct acid secretion,33.30%,2,,6,4,1,1,1,1
+C-type lectin receptor signaling pathway,0.00%,145,,156,115,1.78,1.54,7,7
+Cytokine-cytokine receptor interaction,100.00%,1,0,251,265,1.25,1.53,13,3
+Diabetic cardiomyopathy,14.10%,50,,71,118,1.58,2.04,7,8
+Dilated cardiomyopathy,7.10%,10,4.66,28,93,2.29,2.96,20,20
+Drug metabolism - cytochrome P450,0.00%,55,,59,73,3.2,2.8,22,19
+Drug metabolism - other enzymes,0.00%,51,,66,81,1.82,2.45,19,20
+ECM-receptor interaction,94.40%,4,0.04,71,90,5.55,1.93,17,4
+EGFR tyrosine kinase inhibitor resistance,0.00%,121,9.15,121,84,1.53,1.81,7,7
+Endocrine resistance,8.10%,67,,86,99,1.95,2.34,9,9
+Endocytosis,50.00%,7,1.07,24,97,3.04,2.42,12,6
+Epithelial cell signaling in Helicobacter pylori infection,16.70%,20,4.5,24,39,1.62,1.58,4,3
+Fanconi anemia pathway,9.10%,20,,22,40,2.95,1.36,15,4
+Fat digestion and absorption,60.00%,2,0.5,5,12,1.8,1.8,3,3
+Fc epsilon RI signaling pathway,9.80%,37,5.45,41,64,2.1,2.2,7,7
+Fluid shear stress and atherosclerosis,1.00%,92,3.94,96,146,1.79,2.25,7,20
+FoxO signaling pathway,1.30%,76,,79,130,2.66,2.41,7,7
+GABAergic synapse,5.30%,11,3.57,19,71,10.05,6.95,21,21
+Gap junction,0.00%,49,,49,92,2.12,2.63,9,13
+Gastric acid secretion,0.00%,14,4.77,25,64,2.16,2.92,9,9
+Glucagon signaling pathway,6.10%,46,,49,97,3.45,2.57,12,12
+Graft-versus-host disease,100.00%,1,0,4,22,2.5,3.5,6,11
+Hippo signaling pathway,3.30%,55,,61,157,4.16,1.89,19,10
+Hippo signaling pathway - multiple species,11.50%,23,3.59,26,29,1.65,2.27,3,4
+Homologous recombination,25.00%,12,1,16,16,1,1,1,1
+Hypertrophic cardiomyopathy,16.70%,10,2.1,18,39,1.5,2.06,7,6
+IL-17 signaling pathway,0.00%,134,,134,91,2.53,1.57,13,13
+Inflammatory bowel disease,1.90%,53,,54,48,1.22,1.24,3,2
+Inflammatory mediator regulation of TRP channels,18.80%,65,5.25,80,131,2.14,1.82,9,9
+Insulin resistance,2.50%,116,,119,104,1.73,1.75,8,8
+Insulin secretion,13.20%,33,5.65,38,67,1.92,2.08,10,10
+Insulin signaling pathway,14.70%,64,7.39,75,141,2.39,2.15,12,12
+Intestinal immune network for IgA production,100.00%,1,0,19,28,1.11,1.05,2,2
+Kaposi sarcoma-associated herpesvirus infection,2.90%,46,,103,172,2.34,1.85,17,13
+Legionellosis,16.00%,11,1.26,25,40,1.08,1.4,2,5
+Leishmaniasis,0.00%,34,4.14,44,78,1.91,1.89,5,14
+Leukocyte transendothelial migration,6.50%,53,10.4,62,110,2.52,2.56,26,26
+Linoleic acid metabolism,0.00%,41,,41,30,1.9,6.32,22,22
+Lipid and atherosclerosis,1.10%,168,,180,217,1.87,1.88,11,14
+Longevity regulating pathway,0.00%,54,,54,88,2.24,2.5,9,9
+M NAmino sugar and nucleotide sugar metabolism,1.10%,91,,95,44,1.41,1.42,4,4
+M NArginine and proline metabolism,13.50%,77,,89,50,1.42,1.19,5,5
+M NArginine biosynthesis,7.00%,40,2.31,43,23,1.21,1.21,3,3
+M NCitrate cycle (TCA cycle),0.00%,80,,80,30,1.01,1.6,4,4
+M NCysteine and methionine metabolism,3.80%,98,,104,52,1.25,1.46,3,5
+M NFatty acid degradation,0.00%,133,,135,41,2.01,2.08,7,7
+M NFolate biosynthesis,1.50%,57,,65,27,1.49,1.32,4,4
+M NGalactose metabolism,10.90%,57,,64,29,1.59,1.14,4,4
+M NGlutathione metabolism,2.40%,82,,84,51,3.24,3.06,23,23
+M NGlycine serine and threonine metabolism,1.70%,172,,179,39,1.35,0.89,2,4
+M NGlycolysis  Gluconeogenesis,3.60%,71,,84,67,2.08,1.63,5,7
+M NGlycosaminoglycan degradation,10.00%,18,5.87,20,19,1.2,1.65,5,5
+M NGlycosphingolipid biosynthesis - globo and isoglobo series,6.90%,21,,29,15,1.1,1.21,2,2
+M NGlycosphingolipid biosynthesis - lacto and neolacto series,0.90%,229,,231,28,1.42,1.39,3,3
+M NGlycosylphosphatidylinositol (GPI)-anchor biosynthesis,16.70%,11,1.86,18,25,1.78,1.28,7,7
+M NHistidine metabolism,20.80%,19,3.11,24,22,1.25,1,5,3
+M NLipoic acid metabolism,8.70%,13,,23,18,1.13,1.13,3,3
+M NLysine degradation,7.10%,12,,28,61,3.39,4.18,32,32
+M NMannose type O-glycan biosynthesis,0.00%,24,4.94,24,23,1.58,1.5,3,3
+M NN-Glycan biosynthesis,17.60%,20,2.02,51,49,1.31,1.73,3,10
+M NNicotinate and nicotinamide metabolism,1.10%,93,,94,38,3.15,1.84,8,7
+M NOne carbon pool by folate,1.80%,110,,112,20,1.64,1.2,3,2
+M NPhenylalanine tyrosine and tryptophan biosynthesis,0.00%,45,,45,6,1.2,0.47,3,3
+M NPorphyrin metabolism,14.30%,24,,28,45,1.86,2.43,7,19
+M NPrimary bile acid biosynthesis,3.20%,60,,62,17,1,0.87,1,1
+M NPurine metabolism,0.30%,340,,341,124,3.06,3.15,16,16
+M NPyruvate metabolism,6.10%,91,,99,47,1.64,1.4,5,7
+M NSphingolipid metabolism,0.50%,193,,194,51,2.21,1.85,6,6
+M NStarch and sucrose metabolism,0.00%,53,,53,39,2.68,2.28,9,9
+M NSteroid biosynthesis,3.50%,53,,57,20,0.96,1.04,2,2
+M NSteroid hormone biosynthesis,0.00%,350,,350,61,2.08,2.46,19,19
+M NTerpenoid backbone biosynthesis,0.00%,52,,52,22,1.63,1.08,3,3
+M NTryptophan metabolism,1.20%,78,,83,42,1.35,1.46,5,5
+M NTyrosine metabolism,4.10%,113,,121,35,1.66,1.07,7,7
+M NValine leucine and isoleucine degradation,4.00%,121,,126,48,1.33,1.42,5,5
+MAlanine aspartate and glutamate metabolism,16.20%,186,,222,37,0.88,0.99,2,3
+Malaria,100.00%,1,0,6,11,1.5,1,2,1
+Malpha-Linolenic acid metabolism,50.00%,2,,4,26,6.75,1.25,22,2
+MAscorbate and aldarate metabolism,7.10%,13,2.21,14,25,3.36,6.36,19,19
+Maturity onset diabetes of the young,12.50%,28,1.82,32,24,1,1,1,1
+Mbeta-Alanine metabolism,3.30%,83,,90,31,1.87,1.31,5,5
+MBiotin metabolism,0.00%,22,,22,2,1,0.73,1,1
+MButanoate metabolism,2.70%,28,6.83,37,27,1.62,1.41,7,7
+MCaffeine metabolism,0.00%,10,,10,6,1.5,1.3,2,2
+MD-Amino acid metabolism,100.00%,1,0,4,6,0.75,0.75,2,1
+Melanogenesis,3.20%,26,6.9,31,103,3.03,2.71,19,10
+Metabolism of xenobiotics by cytochrome P450,0.00%,156,,156,76,3.35,6.36,22,22
+MEther lipid metabolism,11.40%,31,,35,50,3.97,5.31,22,22
+MFatty acid biosynthesis,0.00%,220,,220,18,1.11,1.09,7,7
+MFatty acid elongation,2.30%,37,,44,27,1.59,1.77,6,7
+MFructose and mannose metabolism,8.50%,38,,47,33,1.79,1.85,5,5
+MGlycerolipid metabolism,5.80%,49,,52,64,5.13,4.38,10,10
+MGlycerophospholipid metabolism,2.70%,143,,147,99,3.93,2.69,22,22
+MGlycosphingolipid biosynthesis - ganglio series,0.00%,48,,48,15,1.19,1.12,2,2
+MGlyoxylate and dicarboxylate metabolism,16.40%,33,,55,31,1.29,0.85,5,5
+MicroRNAs in cancer,99.10%,2,0,230,270,2.17,1.27,10,4
+Mineral absorption,21.40%,9,,14,34,1.71,2.29,11,11
+MInositol phosphate metabolism,4.30%,88,,92,73,3.23,2.54,13,13
+MMucin type O-glycan biosynthesis,0.00%,25,,25,36,2.44,4.24,21,21
+MNitrogen metabolism,40.00%,3,0.67,5,4,1.4,0.8,2,2
+Morphine addiction,11.10%,32,,36,82,6.11,7.81,21,21
+MOxidative phosphorylation,100.00%,1,0,2,50,23.5,3,44,3
+MPantothenate and CoA biosynthesis,17.90%,18,,28,19,1.61,1.29,3,3
+MPentose and glucuronate interconversions,14.30%,14,,28,35,1.96,1.43,19,19
+MPentose phosphate pathway,1.10%,91,,92,31,1.54,1.28,3,3
+MPhenylalanine metabolism,23.30%,23,1.93,30,16,1.37,0.9,3,3
+MPropanoate metabolism,1.20%,71,,80,32,1.36,1.01,5,5
+MPyrimidine metabolism,0.00%,186,,192,58,3.06,2.05,8,8
+MRiboflavin metabolism,33.30%,4,1,6,8,2,1.33,3,2
+mRNA surveillance pathway,38.10%,13,3.34,21,77,3.1,3.38,16,16
+MSulfur metabolism,10.00%,5,,10,10,1.5,1.3,2,2
+MTaurine and hypotaurine metabolism,13.00%,20,,23,16,2.43,1.7,5,5
+MThiamine metabolism,30.00%,7,1.58,10,15,2.1,1.4,6,6
+MUbiquinone and other terpenoid-quinone biosynthesis,0.00%,6,,14,11,1,1.07,2,2
+MValine leucine and isoleucine biosynthesis,100.00%,1,0,4,4,2,0,2,0
+MVarious types of N-glycan biosynthesis,0.00%,15,4.88,15,16,1.93,1.53,3,3
+MVitamin B6 metabolism,0.00%,24,,24,5,1.04,1.21,2,2
+NAcute myeloid leukemia,7.50%,21,5.46,53,68,1.74,2.08,7,7
+NAdipocytokine signaling pathway,2.30%,29,,44,64,1.82,2.11,7,7
+NAdrenergic signaling in cardiomyocytes,10.00%,58,4.92,70,161,2.9,3.66,16,20
+NAldosterone synthesis and secretion,14.30%,21,4.85,28,72,3,3.54,10,11
+NAlzheimer disease,15.60%,57,9.11,109,342,2,3.23,19,48
+NAmyotrophic lateral sclerosis,11.60%,71,,95,279,1.54,3.44,7,48
+NAntigen processing and presentation,27.30%,9,,22,65,4.09,5.41,14,20
+NApoptosis,4.50%,128,,134,131,1.72,1.59,12,9
+Natural killer cell mediated cytotoxicity,9.30%,97,,107,134,1.83,2.07,15,7
+NAutophagy - animal,3.00%,124,,132,172,2.13,2.11,8,8
+NB cell receptor signaling pathway,9.80%,44,,51,91,1.61,2.08,7,18
+NBasal cell carcinoma,35.00%,13,7.47,20,59,2.95,2.9,19,19
+NBladder cancer,18.80%,8,3.69,16,29,1.69,1.81,3,3
+NCalcium signaling pathway,43.20%,12,2.86,37,205,5.86,3.76,39,19
+NCell cycle,0.00%,79,,79,113,2.72,2.41,15,15
+NChemical carcinogenesis - DNA adducts,16.10%,17,,31,65,2.68,6.19,22,22
+NChemical carcinogenesis - reactive oxygen species,7.60%,35,,79,159,1.85,2.61,19,20
+NChemical carcinogenesis - receptor activation,2.10%,118,,146,221,1.89,2.34,9,19
+NCholesterol metabolism,48.10%,4,,27,32,1.19,1.3,3,3
+NChronic myeloid leukemia,16.70%,31,5.84,42,77,1.98,2.05,7,7
+NCobalamin transport and metabolism New!,5.60%,11,,18,19,1.22,1.83,4,4
+NColorectal cancer,14.30%,44,,56,76,1.86,1.79,7,7
+NComplement and coagulation cascades,4.10%,94,,98,111,1.66,1.37,5,7
+NCoronavirus disease - COVID-19,2.20%,37,,91,236,1.47,2.77,6,94
+NCortisol synthesis and secretion,0.00%,42,5.96,42,53,2.45,1.64,10,10
+NCushing syndrome,1.30%,51,,76,142,3.03,2.3,19,10
+NCytosolic DNA-sensing pathway,0.00%,53,5.45,53,65,1.3,1.98,4,13
+NDopaminergic synapse,1.90%,53,5.56,54,130,4.19,3.54,21,21
+NEfferocytosis,2.90%,80,,102,145,1.73,1.54,6,6
+NEndocrine and other factor-regulated calcium reabsorption,9.40%,27,,32,46,1.53,1.78,9,9
+NEndometrial cancer,38.20%,17,4.91,34,54,2.03,1.76,7,7
+Neomycin kanamycin and gentamicin biosynthesis,100.00%,1,0,2,5,2.5,0,4,0
+NEpstein-Barr virus infection,10.20%,105,,127,165,1.91,1.93,14,13
+NErbB signaling pathway,0.00%,85,6.73,85,86,1.71,2.07,7,7
+NEstrogen signaling pathway,0.00%,62,,68,136,2.71,3.16,9,29
+Neuroactive ligand-receptor interaction,100.00%,1,0,105,421,1.64,3.6,9,19
+Neurotrophin signaling pathway,0.00%,116,,116,118,1.67,1.84,7,7
+Neutrophil extracellular trap formation,7.60%,68,,79,100,1.65,1.97,8,7
+NFc gamma R-mediated phagocytosis,2.90%,68,12.23,70,106,1.9,2.24,7,11
+NFerroptosis,40.90%,6,,22,25,1.05,1.5,2,2
+NFocal adhesion,2.90%,100,,103,204,2.97,3.71,45,20
+NGastric cancer,13.70%,55,6.76,73,153,2.53,1.99,19,12
+NGlioma,0.00%,62,,77,80,2,2.86,8,8
+NGlutamatergic synapse,3.80%,50,,52,105,3.35,4,21,21
+NGnRH signaling pathway,0.00%,39,10.7,39,86,2.41,2.31,9,9
+NGrowth hormone synthesis secretion and action,0.00%,76,,76,124,2.3,2.32,10,10
+NHedgehog signaling pathway,2.20%,44,,45,56,2.38,2.11,8,8
+NHepatitis B,8.70%,39,,92,153,2.13,1.83,13,13
+NHepatitis C,6.20%,50,,80,132,1.96,1.68,14,14
+NHepatocellular carcinoma,9.20%,40,,76,182,2.38,2.55,19,20
+NHerpes simplex virus 1 infection,6.10%,53,,98,508,1.82,8.91,14,342
+NHIF-1 signaling pathway,0.00%,67,8.93,67,118,2.85,1.9,7,7
+NHuman cytomegalovirus infection,0.00%,110,,131,224,2.73,2.7,17,17
+NHuman immunodeficiency virus 1 infection,2.90%,62,,102,214,2.28,2.66,17,17
+NHuman papillomavirus infection,3.00%,71,,99,316,3.12,2.15,45,21
+NHuman T-cell leukemia virus 1 infection,13.50%,45,,89,191,2.43,1.82,14,14
+NHuntington disease,26.10%,7,1.61,46,151,1.63,3.02,10,35
+Nicotine addiction,100.00%,1,0,17,39,1,3.71,1,19
+NInfluenza A,5.90%,58,9.33,85,123,1.64,2.08,13,14
+NJAK-STAT signaling pathway,0.00%,231,,231,168,3.75,2.84,20,14
+NLong-term depression,2.80%,35,7.22,36,60,2.72,3.33,8,8
+NLong-term potentiation,0.00%,38,,38,68,3.42,2.66,7,7
+NMAPK signaling pathway,2.40%,159,,167,303,2.65,2,55,25
+NMeasles,14.10%,42,8.35,71,123,1.72,2.3,14,13
+NMelanoma,7.40%,25,5.17,27,72,2.85,2.26,25,7
+NMitophagy - animal,12.70%,47,,71,102,1.99,3.85,8,10
+NmTOR signaling pathway,1.20%,83,,84,162,2.35,2.11,19,12
+NNecroptosis,3.00%,65,7.63,67,156,2.42,1.94,27,8
+NNF-kappa B signaling pathway,2.10%,92,,96,93,1.59,1.69,4,4
+NNOD-like receptor signaling pathway,3.10%,155,,163,163,1.36,1.6,14,14
+NNon-small cell lung cancer,13.80%,48,6.75,58,73,1.69,1.86,7,7
+NNotch signaling pathway,0.00%,23,,23,62,2.91,2.74,8,5
+Non-alcoholic fatty liver disease,0.00%,41,,58,75,1.36,1.66,7,7
+NPancreatic cancer,13.50%,33,,52,79,1.71,1.9,7,7
+NParathyroid hormone synthesis secretion and action,1.30%,76,,77,113,2.57,1.91,10,10
+NParkinson disease,7.30%,63,,82,224,1.56,5.16,9,48
+NPathogenic Escherichia coli infection,1.10%,50,,93,162,2.34,2.12,17,11
+NPathways in cancer,6.40%,242,,282,505,2.25,2.39,26,20
+NPathways of neurodegeneration - multiple diseases,22.60%,70,,177,428,1.73,5.08,19,48
+NPhagosome,33.30%,2,0.9,3,36,7.33,12,9,22
+NPI3K-Akt signaling pathway,0.00%,84,8.9,84,363,4.6,2.96,55,25
+NPrion disease,2.30%,37,,43,121,1.91,3.12,10,35
+NProlactin signaling pathway,0.00%,55,,55,72,2.75,1.85,7,7
+NProstate cancer,11.60%,38,5.96,43,98,3.02,2.23,8,8
+NProtein processing in endoplasmic reticulum,17.20%,15,,29,52,1.45,1.72,6,6
+NRas signaling pathway,0.00%,112,,112,242,3.12,2.65,49,22
+NRenal cell carcinoma,5.70%,17,1.84,35,58,1.86,2.06,7,7
+NRenin secretion,5.70%,19,4.92,35,67,1.66,1.97,7,7
+NRenin-angiotensin system,20.80%,38,,48,28,1.06,1,2,1
+NRIG-I-like receptor signaling pathway,3.20%,60,6.44,62,73,1.31,1.85,3,13
+NSalmonella infection,2.60%,76,,117,239,2.22,2.56,22,22
+NShigellosis,4.30%,109,,138,246,2.11,2.14,17,17
+NSmall cell lung cancer,27.80%,18,7.14,36,95,2.39,2,19,7
+NSpinocerebellar ataxia,36.00%,24,5.59,50,122,1.96,2.58,7,35
+NT cell receptor signaling pathway,5.30%,87,,95,122,1.99,1.83,16,16
+NTGF-beta signaling pathway,1.40%,66,4.47,72,107,2.19,2.56,11,11
+NThermogenesis,3.10%,62,,64,103,2.16,2.38,17,17
+NThyroid cancer,40.00%,9,2.75,20,37,1.9,1.8,4,4
+NThyroid hormone signaling pathway,0.00%,71,8.57,71,123,2.62,2.17,23,11
+NThyroid hormone synthesis,36.10%,23,5.84,36,54,2.14,2,10,10
+NTight junction,0.70%,137,,138,170,3.13,2.28,24,24
+NTNF signaling pathway,0.00%,51,6.97,56,78,1.61,1.79,7,10
+NToll-like receptor signaling pathway,1.00%,101,8.39,102,107,1.58,1.73,13,13
+NVasopressin-regulated water reabsorption,10.00%,9,5.71,10,23,2.4,2.2,7,7
+NVitamin digestion and absorption,11.10%,8,,9,11,1.67,2.11,4,4
+NWnt signaling pathway,2.00%,99,,101,167,2.96,3.74,19,19
+NYersinia infection,0.00%,63,7.76,113,143,2.09,1.96,11,11
+Olfactory transduction,3.60%,18,,28,452,31.46,46,412,412
+Oocyte meiosis,3.40%,57,,59,135,3.98,2.54,23,15
+Osteoclast differentiation,1.20%,82,,83,138,2.24,1.95,25,7
+Ovarian steroidogenesis,16.00%,21,4.95,25,42,2.36,2.48,9,9
+Oxytocin signaling pathway,1.40%,48,7.07,73,162,2.56,2.62,9,20
+p53 signaling pathway,2.90%,67,1.81,69,74,1.04,1.29,3,5
+Pancreatic secretion,18.20%,8,2.81,22,41,1.73,1.82,9,9
+PD-L1 expression and PD-1 checkpoint pathway in cancer,0.00%,75,,80,91,1.96,2.3,7,7
+Pertussis,10.70%,14,2.1,28,54,2.04,2.25,5,5
+Phosphatidylinositol signaling system,0.00%,149,,149,85,3.99,4.26,11,11
+Phospholipase D signaling pathway,1.40%,70,,71,131,3.21,4.18,22,22
+Phosphonate and phosphinate metabolism,100.00%,1,0,2,6,1.5,2,2,2
+Phototransduction,0.00%,12,3.4,20,33,1.9,2.3,7,7
+Platelet activation,6.00%,77,,84,137,1.9,2.19,9,9
+Platinum drug resistance,0.00%,41,,41,40,1.54,1.29,7,7
+PPAR signaling pathway,0.00%,60,1,60,74,3.78,1.68,4,7
+Progesterone-mediated oocyte maturation,14.30%,10,3.63,28,106,3.57,3,22,14
+Protein digestion and absorption,100.00%,1,0,1,6,1,5,1,5
+Proteoglycans in cancer,1.10%,166,,187,207,1.74,1.86,19,19
+Proximal tubule bicarbonate reclamation,100.00%,1,0,2,7,1.5,2,2,2
+Rap1 signaling pathway,2.20%,88,,90,213,2.96,2.46,43,18
+Regulation of actin cytoskeleton,3.40%,77,,88,232,3.42,3.95,26,26
+Regulation of lipolysis in adipocytes,12.50%,19,4.97,40,63,1.95,2.05,9,9
+Relaxin signaling pathway,0.00%,102,,102,136,2.62,3.8,17,17
+Retinol metabolism,0.00%,166,,166,68,2.66,4.39,7,19
+Retrograde endocannabinoid signaling,12.00%,17,4.7,25,121,7.96,6.68,21,48
+Rheumatoid arthritis,100.00%,1,0,7,17,1.57,1.14,2,2
+RNA degradation,100.00%,1,0,4,18,6.25,2.5,8,6
+Salivary secretion,10.30%,9,6,29,61,2.03,2.07,9,9
+Selenocompound metabolism,7.10%,13,,14,14,1.79,1.57,3,3
+Serotonergic synapse,7.50%,20,3.65,40,91,3.58,3.5,21,21
+Signaling pathways regulating pluripotency of stem cells,0.00%,39,,58,111,3.19,2.6,19,10
+SNARE interactions in vesicular transport,66.70%,2,0.2,6,25,1.5,4.33,3,6
+Sphingolipid signaling pathway,1.40%,62,5.79,72,107,2.25,2.19,16,16
+Staphylococcus aureus infection,16.70%,15,3.62,18,38,1.5,2.11,5,6
+Sulfur relay system,66.70%,2,0.33,6,8,1.17,1.17,2,2
+Synaptic vesicle cycle,37.50%,5,,8,20,2.5,2.25,4,5
+Systemic lupus erythematosus,57.10%,3,1.72,7,21,2.29,3,5,5
+Taste transduction,36.80%,16,3.92,38,76,1.66,2.11,4,6
+Th1 and Th2 cell differentiation,0.00%,102,,113,92,1.79,1.34,14,5
+Th17 cell differentiation,4.90%,78,,82,96,1.85,1.63,6,5
+Toxoplasmosis,2.10%,26,8.56,48,106,1.94,2,12,14
+Transcriptional misregulation in cancer,100.00%,1,0,9,19,1.22,1.11,3,2
+Tuberculosis,5.90%,126,8.08,136,193,1.9,2.12,7,14
+Type I diabetes mellitus,100.00%,1,0,2,5,1.5,1,2,1
+Type II diabetes mellitus,7.40%,25,,27,46,2.44,2.56,7,7
+Vascular smooth muscle contraction,4.80%,59,7.98,62,145,2.73,3.05,19,19
+VEGF signaling pathway,0.00%,34,6.22,34,60,2.24,2.47,7,7
+Vibrio cholerae infection,44.40%,10,1.17,18,45,2.56,1.61,25,3
+Viral carcinogenesis,100.00%,1,0,3,6,1.33,1,2,1
+Viral life cycle - HIV-1,41.70%,4,,12,23,1.08,1.75,2,4
+Viral myocarditis,21.10%,7,1.23,19,40,1.16,2,2,6
+Viral protein interaction with cytokine and cytokine receptor,100.00%,1,0,37,97,2.73,1.32,11,3
