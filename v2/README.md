@@ -38,6 +38,7 @@ Transform pathway topology into a NetworkX directed multi-graph:
 - **Nodes**: Genes/proteins from pathway
 - **Edges**: Interaction relationships (activation/inhibition)
 - **Edge attributes**: Store interaction type and parameters
+- Diagrams of DAGs for all [pathways](https://github.com/zurkin1/TIS/tree/main/data/graphs)
 
 ### 3. Gaussian-Scaled Belief Propagation
 
